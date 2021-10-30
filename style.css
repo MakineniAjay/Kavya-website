@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to top, rgba(0,0,0,0.1)50%, rgba(0,0,0,0.1)50%), url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  }
+.main_headding{
+    color: rgb(14, 13, 73);
+    text-align: center;
+    border: 2px solid black;
+    margin: 27px;
+    margin-bottom: 17px;
+    padding: 9px;
+    font-family: 'Noto Serif Display', serif;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+ul li{
+    list-style: none;
+    padding:5px 15px;
+}
+
+ul li:hover{
+    background: rgb(158, 152, 152);
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+ul li:active{
+    background-color: blanchedalmond;
+    transition: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    cursor: default;
+    /* font-weight: bold; */
+}
